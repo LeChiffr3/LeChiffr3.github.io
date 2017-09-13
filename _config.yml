@@ -1,0 +1,30 @@
+title: Hippipique
+author: 
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Hippipique, un site sur les courses hippiques et le pari mutuel.
+twitter_username: hippipique
+github_username:  
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%Y-%m-%d"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
+relative_links:
+  enabled:     true
+  collections: false
+
+google_analytics: UA-106236889-1
